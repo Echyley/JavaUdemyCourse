@@ -8,12 +8,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        System.out.println("Determine o quantas colunas terão e linhas terá a matriz");
+        System.out.println("Determine o quantas colunas e linhas terá a matriz");
         int n = sc.nextInt();
         //Colchetes duplas determinam um arranjo bidimensional ou uma matriz
         int[][] mat = new int[n][n];
 
-        //É necessário colcoar 2 fors para que o valor de n preencha toda a matriz
+        //É necessário colocar 2 fors para que o valor de n preencha toda a matriz
         for (int j = 0; j < mat.length; j++) { //<-- For para linhas
             for (int i = 0; i < mat[i].length; i++) { //<-- For para colunas
                 mat[i][j] = sc.nextInt();
